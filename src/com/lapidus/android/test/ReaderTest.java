@@ -2,8 +2,13 @@ package com.lapidus.android.test;
 
 import java.util.ArrayList;
 
+
 import junit.framework.TestCase;
 import com.lapidus.android.painter.*;
+import com.lapidus.android.reader.Collision;
+import com.lapidus.android.reader.Reader;
+import com.lapidus.android.reader.ReaderView;
+import com.lapidus.android.reader.Track;
 
 public class ReaderTest extends TestCase {
 	public void testToArray() {
