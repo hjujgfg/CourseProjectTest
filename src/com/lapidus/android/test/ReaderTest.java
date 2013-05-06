@@ -5,19 +5,20 @@ import java.util.ArrayList;
 
 import junit.framework.TestCase;
 import com.lapidus.android.painter.*;
+import com.lapidus.android.primitives.Point;
 import com.lapidus.android.reader.Collision;
 import com.lapidus.android.reader.Reader;
 import com.lapidus.android.reader.ReaderView;
 import com.lapidus.android.reader.Track;
 
 public class ReaderTest extends TestCase {
-	public void testToArray() {
+	/*public void testToArray() {
 		Point[] p = new Point[7];
 		ArrayList<Point> tst = new ArrayList<Point>();
 		p = Reader.toArray(tst);
 		assertEquals(true, true);
 		v = new ReaderView(null);
-	}
+	}*/
 	ArrayList<Point> arr;
 	ReaderView v;
 	/*
@@ -140,6 +141,6 @@ public class ReaderTest extends TestCase {
 		}
 		Track t = new Track();
 		Reader.doLine(arr.get(0), arr, t, v);
-		assertEquals(2, t.getLines().size());
+		assertEquals(1, t.getLines().size());
 	}
 }

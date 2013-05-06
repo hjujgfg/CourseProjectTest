@@ -1,7 +1,7 @@
 package com.lapidus.android.test;
 
-import com.lapidus.android.painter.Point;
-import com.lapidus.android.painter.Segment;
+import com.lapidus.android.primitives.Point;
+import com.lapidus.android.primitives.Segment;
 
 import junit.framework.TestCase;
 
